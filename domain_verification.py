@@ -6,7 +6,7 @@ def lambda_handler(event, context):
 
     # Example: Validate email domain
     email = event['request']['userAttributes']['email']
-    allowed_domains = ["redingtongroup.com"]
+    allowed_domains = ["converg-in.com"]
     email_domain = email.split("@")[-1]
     
     if email_domain not in allowed_domains:
