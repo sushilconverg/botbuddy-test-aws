@@ -8,7 +8,7 @@ function Layout(
 ) {
     const { dispatch } = useUser();
     useEffect(() => {
-        dispatch({ type: "SETPROJECT", payload: { projectName: "ConvergIN-Bot" } })
+        dispatch({ type: "SETPROJECT", payload: { projectName: "TechGenie" } })
     }, [])
     return (
         <>
